@@ -1,0 +1,11 @@
+framework module FrameWithStoryB {
+  umbrella header "FrameWithStoryB.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameWithStoryB.Swift {
+    header "FrameWithStoryB-Swift.h"
+    requires objc
+}
